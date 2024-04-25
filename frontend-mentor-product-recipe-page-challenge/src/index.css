@@ -1,0 +1,143 @@
+.main-section {
+  height: 100%;
+  width: 100%;
+  background-color: hsl(30, 54%, 90%);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.principal-div {
+  width: 50%;
+  background-color: hsl(0, 0%, 100%);
+  margin: auto;
+  padding: 40px;
+  border-radius: 25px;
+}
+
+.recipe-img img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.recipe-presentation h1 {
+  font-size: 40px;
+  font-weight: 400;
+  color: hsl(24, 5%, 18%);
+  margin-bottom: 0px;
+  font-family: "Young Serif";
+}
+
+.recipe-presentation p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.recipe-preparation {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin: 30px auto;
+}
+
+.recipe-preparation p {
+  font-weight: 600;
+  font-size: 20px;
+  color: hsl(332, 51%, 32%);
+  margin-top: 0px;
+}
+
+.recipe-preparation li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 25px;
+}
+
+li {
+  margin: 10px auto;
+}
+
+li span {
+  margin-left: 15px;
+  line-height: 0.65cm;
+  display: block;
+}
+
+.recipe-ingredients h1,
+.recipe-instructions h1,
+.recipe-nutrition h1 {
+  font-family: "Young Serif";
+  color: hsl(14, 45%, 36%);
+  font-weight: 400;
+  font-size: 28px;
+  margin-top: 0px;
+}
+
+.recipe-ingredients li::marker {
+  color: hsl(14, 45%, 36%);
+}
+
+hr {
+  margin: 30px auto;
+  border: 0.1px solid hsl(30, 18%, 87%);
+}
+
+.recipe-instructions li::marker {
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
+
+.recipe-nutrition table .col2 {
+  font-weight: 700;
+  color: hsl(14, 45%, 36%);
+}
+
+.recipe-nutrition table {
+  width: 100%;
+}
+
+.recipe-nutrition table td {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  padding: 15px 30px;
+}
+
+.recipe-nutrition table tr:last-child td {
+  border: none;
+}
+
+@media screen and (max-width: 680px) {
+  .main-section {
+    padding: 0;
+    width: 100%;
+  }
+
+  .principal-div {
+    width: 100%;
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .recipe-img img {
+    border-radius: 0;
+  }
+
+  .recipe-presentation {
+    margin: auto 30px;
+  }
+
+  .recipe-presentation p {
+    line-height: 0.7cm;
+  }
+
+  .recipe-preparation,
+  .recipe-instructions,
+  .recipe-ingredients,
+  .recipe-nutrition,
+  hr {
+    margin: 30px;
+  }
+}
