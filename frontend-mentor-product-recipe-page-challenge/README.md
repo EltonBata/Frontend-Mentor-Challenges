@@ -29,7 +29,7 @@ npm install -g vite
 
 1. Download the directory
 
-(Download directory)[https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FEltonBata%2FFrontend-Mentor-Challenges%2Ftree%2Fmaster%2Ffrontend-mentor-product-recipe-page-challenge]
+[Download Directory](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FEltonBata%2FFrontend-Mentor-Challenges%2Ftree%2Fmaster%2Ffrontend-mentor-product-recipe-page-challenge)
 
 2. Install NPM packages
 
